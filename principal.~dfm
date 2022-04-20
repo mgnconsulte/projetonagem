@@ -1,0 +1,19 @@
+object DataModule2: TDataModule2
+  OldCreateOrder = False
+  Left = 192
+  Top = 125
+  Height = 341
+  Width = 603
+  object IBDatabase: TIBDatabase
+    DatabaseName = 'C:\projeto\projeto.FDB'
+    Params.Strings = (
+      'user_name=SYSDBA'
+      'password=masterkey')
+    LoginPrompt = False
+    IdleTimer = 0
+    SQLDialect = 3
+    TraceFlags = []
+    Left = 32
+    Top = 32
+  end
+end
